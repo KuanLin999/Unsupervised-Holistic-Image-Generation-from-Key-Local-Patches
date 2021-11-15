@@ -7,7 +7,7 @@ paper link: [https://arxiv.org/pdf/1703.10730.pdf]
 分別存放 model 權重以及 生成結果
 
 ### model.py 
-model 部分在 convlution layer 的 optput_channel 有稍微修正過，架構上基本一致
+model 部分在 convlution layer 的 output_channel 有稍微修正過，架構上基本一致
 在 discriminator 的部分因是採用 PatchGAN 的架構
 
 ### losses.py 
