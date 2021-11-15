@@ -5,3 +5,14 @@ paper link: [https://arxiv.org/pdf/1703.10730.pdf]
 
 先在同個資料夾中建立 model_checkpoint & Result
 分別存放 model 權重以及 生成結果
+
+### model.py 
+model 部分在 convlution layer 的 optput_channel 有稍微修正過，架構上基本一致
+在 discriminator 的部分因是採用 PatchGAN 的架構
+
+### losses.py 
+基本上採用 paper 的想法
+
+### prepare_data.py 
+原 paper 是以 celebA 當作人臉的訓練
+這裡以手寫數字的 mnist 做簡單訓練
