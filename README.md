@@ -16,3 +16,4 @@ model 部分在 convlution layer 的 output_channel 有稍微修正過，架構�
 ### prepare_data.py 
 原 paper 是以 celebA 當作人臉的訓練
 這裡以手寫數字的 mnist 做簡單訓練
+這裡的實驗在 mask 選法上，目前是以隨機的方式選擇，並沒有做太複雜的運算
